@@ -1,0 +1,32 @@
+{
+    "name": "netlify_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "engines": {
+      "node": "14.x"
+    },
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@google-cloud/dialogflow": "^6.0.0",
+      "axios": "^1.4.0",
+      "cors": "^2.8.5",
+      "dialogflow-fulfillment": "^0.6.1",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "netlify-cli": "^16.0.2",
+      "ngrok": "^5.0.0-beta.2",
+      "openai": "^3.3.0",
+      "serverless-http": "^3.2.0",
+      "twilio": "^4.15.0"
+    },
+    "devDependencies": {
+      "@types/dialogflow-fulfillment": "^0.6.1"
+    }
+  }
